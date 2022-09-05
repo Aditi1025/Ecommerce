@@ -2,17 +2,19 @@
     height: 60px;
     display: flex;
     align-items: center;
-    background-color: #131921;
+    background-color: #997b6a;
     position: sticky;
     top: 0;
     z-index: 100;
   }
   
   .header__logo {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 27px;
     width: 100px;
     object-fit: contain;
     margin: 0 20px;
-    margin-top: 18px;
+    margin-top: 10px;
   }
   
   .header__search {

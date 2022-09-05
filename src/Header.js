@@ -7,10 +7,9 @@ function Header() {
   return (
     <div className="header">
       
-        <img
-          className="header__logo"
-          src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
-        />
+        <div className="header__logo">
+          <span>FashGram</span>
+        </div>
       
 
       <div className="header__search">
