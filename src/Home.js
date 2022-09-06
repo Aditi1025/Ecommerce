@@ -18,7 +18,7 @@ function Home() {
             id="12321341"
             title="Lymio Women's Polyester Short A-Line Dress"
             price={999}
-            rating={5}
+            rating={4}
             image="https://m.media-amazon.com/images/I/7122Zr2GkrL._UY741_.jpg"
           />
           <Product
