@@ -16,41 +16,49 @@ function Home() {
         <div className="home__row">
           <Product
             id="12321341"
-            title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
-            price={11.96}
+            title="Lymio Women's Polyester Short A-Line Dress"
+            price={999}
             rating={5}
-            image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
+            image="https://m.media-amazon.com/images/I/7122Zr2GkrL._UY741_.jpg"
+          />
+          <Product
+            id="49538055"
+            title="GRECIILOOKS Western Dresses for Women |A-Line Knee-Length Dress | Indo Western Dress for Women| Short Dress"
+            price={867}
+            rating={4}
+            image="https://m.media-amazon.com/images/I/71SJm8Q8C5L._UY741_.jpg"
           />
           <Product
             id="49538094"
-            title="AMERICAN CREW Men's Regular Fit Polos"
-            price={662.0}
+            title="EYEBOGLER Men's Polo Striped Regular Fit T-Shirt-(T285HS-PP)"
+            price={662}
             rating={4}
-            image="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71M5Y9eocIL._UY741_.jpg"
+            image="https://m.media-amazon.com/images/I/61Mw4M+mHwL._UX569_.jpg"
           />
+
         </div>
 
         <div className="home__row">
           <Product
             id="4903850"
-            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
-            price={199.99}
+            title="OOMPH! Women's Crepe A-Line Maxi Dress (Smocked}or"
+            price={898.99}
             rating={3}
-            image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
+            image="https://m.media-amazon.com/images/I/81PNeTkEIFL._UY741_.jpg"
           />
           <Product
             id="23445930"
-            title="Amazon Echo (3rd generation) | Smart speaker with Alexa, Charcoal Fabric"
-            price={98.99}
+            title="Diverse Men Formal Shirt"
+            price={798}
             rating={5}
-            image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?$300x400_retinamobilex2$"
+            image="https://m.media-amazon.com/images/I/81vuqr1DAtL._UY550_.jpg"
           />
-          <Product
-            id="3254354345"
-            title="New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)"
-            price={598.99}
+         <Product
+            id="49538088"
+            title="Misto Vagon Women and Girls Pencil Heel Casual Sandal"
+            price={600}
             rating={4}
-            image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
+            image="https://m.media-amazon.com/images/I/616gcguOH+L._UY625_.jpg"
           />
         </div>
 
