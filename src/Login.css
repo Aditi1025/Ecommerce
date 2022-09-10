@@ -10,24 +10,26 @@
     margin-top: 20px;
     margin-bottom: 20px;
     object-fit: contain;
-    width: 350px;
+    width: 550px;
     margin-right: auto;
     margin-left: auto;
   }
 
 .login__container {
-    width: 300px;
-    height: fit-content;
-    display: flex;
-    flex-direction: column;
+    width: 450px;
+    min-height: 400px;
+    height: auto;
     border-radius: 5px;
-    border: 1px solid lightgray;
-    padding: 20px;
+    margin: 2% auto;
+    box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+    padding: 2%;
+    background-image: linear-gradient(to top, #e3dfdf 0%, #fd9082 100%);
 }
 
 .login__container > h1 {
     font-weight: 500;
-    margin-bottom: 20px;
+    margin: 2% auto 10% auto;
+    text-align: center;
   }
 
 .login__container > form > h5 {
@@ -47,20 +49,83 @@
 }
 
 .login__signInButton {
-    background: #f0c14b;
+    font-size: large;
+    background: #b79785 ;
     border-radius: 2px;
-    width: 100%;
-    height: 30px;
+    width: 70%;
+    height: 40px;
     border: 1px solid;
     margin-top: 10px;
-    border-color: #a88734 #9c7e31 #846a29;
+    border-color: #997b6a;
+    margin-left: 14%;
   }
 
   .login__registerButton {
+    font-size: large;
+    background: #fdf6f6;
     border-radius: 2px;
-    width: 100%;
-    height: 30px;
+    width: 80%;
+    height: 40px;
     border: 1px solid;
     margin-top: 10px;
     border-color: darkgray;
-  }
+    margin-left: 10%;
+  } 
+
+  input[class="form-input"]{
+    width: 240px;
+    height: 50px;
+  
+    margin-top: 2%;
+    padding: 15px;
+    
+    font-size: 16px;
+    font-family: 'Abel', sans-serif;
+    color: #5E6472;
+  
+    outline: none;
+    border:#252537;
+  
+    border-radius: 0px 5px 5px 0px;
+    transition: 0.2s linear;
+    
+}
+input[id="txt-input"] {width: 250px;}
+/* focus  */
+input:focus {
+    transform: translateX(-2px);
+    border-radius: 5px;
+}
+  
+button {
+  display: inline-block;
+  color: #252537;
+
+  width: 280px;
+  height: 50px;
+
+  padding: 0 20px;
+  background: #fff;
+  border-radius: 5px;
+  
+  outline: none;
+  border: none;
+
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.2s linear;
+  
+  margin: 7% auto;
+  letter-spacing: 0.05em;
+}
+
+button:hover {
+  transform: translatey(3px);
+  box-shadow: none;
+}
+
+/* buttons hover Animation */
+button:hover {
+  animation: ani9 0.4s ease-in-out infinite alternate;
+}
+  
