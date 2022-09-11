@@ -6,16 +6,17 @@ import logo from "./logo.png";
 
 function Login() {
     const history = useNavigate();
+    const [userName, setUserName] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
     const signIn = e => {
         e.preventDefault();
-
+        // alert(userName);
         auth
             .signInWithEmailAndPassword(email, password)
             .then(auth => {
-                history('/');
+                history('/',userName);
             })
             .catch(error => alert(error.message))
     }
@@ -48,6 +49,9 @@ function Login() {
                 <h1>Sign-in</h1>
 
                 <form>
+                    <h5>UserName</h5>
+                    <input class='form-input' id='txt-input' type='text' value={userName} onChange={e => setUserName(e.target.value)} />
+
                     <h5>E-mail</h5>
                     <input class='form-input' id='txt-input' type='text' value={email} onChange={e => setEmail(e.target.value)} />
 
