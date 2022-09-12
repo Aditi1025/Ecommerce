@@ -1,8 +1,7 @@
 import React from "react";
-import "./Home.css";
+import "./Mens.css";
 import Product from "./Product";
 import logo from "./logo.png";
-import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -13,26 +12,7 @@ function Home() {
           src={logo}
           alt=""
         />
-        <Link to='/womens'>
-            <div className="header__option">
-              <span className="header__optionClothing">Womens</span>
-              <span className="header__optionClothing2">Clothes</span>
-            </div>  
-          </Link>
         
-          <Link to='/mens'>
-            <div className="header__option">
-              <span className="header__optionClothing">Mens</span>
-              <span className="header__optionClothing2">Clothes</span>
-            </div>  
-          </Link>
-
-          <Link to='/childs'>
-            <div className="header__option">
-              <span className="header__optionClothing">Childs</span>
-              <span className="header__optionClothing2">Clothes</span>
-            </div>  
-          </Link>
         <div className="home__row">
           <Product
             id="12321341"
