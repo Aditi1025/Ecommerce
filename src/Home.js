@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import Product from "./Product";
+import Category from "./Category";
 import logo from "./logo.png";
 import { Link } from "react-router-dom";
 
@@ -33,6 +34,19 @@ function Home() {
               <span className="header__optionClothing2">Clothes</span>
             </div>  
           </Link>
+        <div className="home__row">
+        <Category 
+        image="https://tinyurl.com/ywjpczyu"
+        url="/mens"
+        />
+        <Category 
+        image="https://tinyurl.com/ywjpczyu"
+        url="/women"
+        />
+        <Category 
+        image="https://tinyurl.com/ywjpczyu"
+        url="childs"/>
+        </div>
         <div className="home__row">
           <Product
             id="12321341"
