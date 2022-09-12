@@ -7,6 +7,7 @@ import Login from "./Login";
 import Checkout from "./Checkout";
 import { auth } from "./firebase";
 import { useStateValue } from "./StateProvider";
+import Mens from "./Mens";
 
 function App() {
   const [{}, dispatch] = useStateValue();
@@ -41,6 +42,7 @@ return (
       />
       <Route path="/" element={<><Header/><Home/></>}/>
       <Route path="/checkout" element={<><Header/><Checkout/></>}/>
+      <Route path="/mens" element={<><Header/><Mens/></>}/>
       </Routes>
     </Router> 
   </div>

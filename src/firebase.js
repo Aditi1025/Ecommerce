@@ -3,14 +3,14 @@ import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCbsT4nSPdfAjWfm1fg4R0Rl0FTCkcGAkU",
-  authDomain: "fashgram-57e41.firebaseapp.com",
-  databaseURL: "https://fashgram-57e41.firebaseio.com",
-  projectId: "fashgram-57e41",
-  storageBucket: "fashgram-57e41.appspot.com",
-  messagingSenderId: "951475849840",
-  appId: "1:951475849840:web:d892efe71f0238c1b542b5",
-  measurementId: "G-8WGTLGRZRK",
+  apiKey: "AIzaSyCJJ9KDXW-TA__uo9IKz6CPtZjfR7mSZpg",
+  authDomain: "fashgram-6b4d3.firebaseapp.com",
+  databaseURL: "https://fashgram-6b4d3.firebaseio.com",
+  projectId: "fashgram-6b4d3",
+  storageBucket: "fashgram-6b4d3.appspot.com",
+  messagingSenderId: "709180725654",
+  appId: "1:709180725654:web:3aaccd4d8a2d1b0fcbe5b7",
+  measurementId: "G-WV9H37QKX5",
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
