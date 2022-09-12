@@ -29,11 +29,11 @@ function Home() {
             image="https://m.media-amazon.com/images/I/71SJm8Q8C5L._UY741_.jpg"
           />
           <Product
-            id="49538094"
-            title="EYEBOGLER Men's Polo Striped Regular Fit T-Shirt-(T285HS-PP)"
-            price={662}
+            id="49531194"
+            title="Maayrah Enterprises Trendy Graceful Crepe Butterfly Middi Dresses For Woman's"
+            price={522}
             rating={4}
-            image="https://m.media-amazon.com/images/I/61Mw4M+mHwL._UX569_.jpg"
+            image="https://m.media-amazon.com/images/I/51UTvT5IhlL.jpg"
           />
 
         </div>
@@ -48,27 +48,41 @@ function Home() {
           />
           <Product
             id="23445930"
-            title="Diverse Men Formal Shirt"
-            price={798}
+            title="SHREE HARIKRISHNA PRINTS Women Floral Long Dress for Women Stylish Latest Western Dresses)"
+            price={658}
             rating={5}
-            image="https://m.media-amazon.com/images/I/81vuqr1DAtL._UY550_.jpg"
+            image="https://m.media-amazon.com/images/I/61Cy8SVb9+L._UX679_.jpg"
           />
          <Product
             id="49538088"
-            title="Misto Vagon Women and Girls Pencil Heel Casual Sandal"
-            price={600}
+            title="Lymio Women's Square Neck Long Sleeve Polyester Dress"
+            price={655}
             rating={4}
-            image="https://m.media-amazon.com/images/I/616gcguOH+L._UY625_.jpg"
+            image="https://m.media-amazon.com/images/I/61LLVU45xtL._UY741_.jpg"
           />
         </div>
 
         <div className="home__row">
           <Product
-            id="90829332"
-            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
-            price={1094.98}
+            id="49112350"
+            title="ishin Women's Pure Cotton Off White Zari Embroidered A-Line Dress"
+            price={1499}
+            rating={5}
+            image="https://m.media-amazon.com/images/I/4157Kl1NTjL.jpg"
+          />
+          <Product
+            id="23448830"
+            title="Lymio Dresses for Women | A-Line Dress | Stylish Dress for Women| Short Dress"
+            price={598}
             rating={4}
-            image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
+            image="https://m.media-amazon.com/images/I/81IBQ0Jl08L._UY741_.jpg"
+          />
+         <Product
+            id="4953844"
+            title="Lymio Women's Cotton A-Line Below The Knee Dress"
+            price={600}
+            rating={3}
+            image="https://m.media-amazon.com/images/I/71ytuBUUhSL._UY741_.jpg"
           />
         </div>
       </div>

@@ -43,6 +43,10 @@ return (
         element = {<><Login/></>} 
       />
       <Route path="/" element={<><Header/><Home/></>}/>
+      <Route path="/checkout" element={<><Header/><Checkout/></>}/>
+      <Route path="/womens" element={<><Header/><Womens/></>}/>
+      <Route path="/mens" element={<><Header/><Mens/></>}/>
+      <Route path="/childs" element={<><Header/><Childs/></>}/>
       </Routes>
     </Router> 
   </div>
