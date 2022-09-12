@@ -12,11 +12,11 @@ function Login() {
 
     const signIn = e => {
         e.preventDefault();
-        // alert(userName);
+            alert("Hello " + userName + ", click OK to continue");
         auth
             .signInWithEmailAndPassword(email, password)
             .then(auth => {
-                history('/',userName);
+                history('/');
             })
             .catch(error => alert(error.message))
     }
