@@ -64,11 +64,25 @@ function Home() {
 
         <div className="home__row">
           <Product
-            id="90829332"
-            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
-            price={1094.98}
+            id="49112350"
+            title="ishin Women's Pure Cotton Off White Zari Embroidered A-Line Dress"
+            price={1499}
+            rating={5}
+            image="https://m.media-amazon.com/images/I/4157Kl1NTjL.jpg"
+          />
+          <Product
+            id="23448830"
+            title="Dennis Lingo Men Shirt- Men Formal Shirt"
+            price={598}
             rating={4}
-            image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
+            image="https://m.media-amazon.com/images/I/61hq+LfAdOS._UY741_.jpg"
+          />
+         <Product
+            id="4953844"
+            title="Men's Poly Cotton Digital Printed Stitched Half Sleeve Shirt"
+            price={600}
+            rating={3}
+            image="https://m.media-amazon.com/images/I/71cFpnm0b6S._AC_UL320_.jpg"
           />
         </div>
       </div>
