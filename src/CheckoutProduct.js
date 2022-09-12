@@ -22,6 +22,7 @@ function CheckoutProduct({ id, image, title, price, rating, hideButton }) {
                 <p className="checkoutProduct__price">
                     <small>$</small>
                     <strong>{price}</strong>
+                    <small>{id}</small>
                 </p>
                 <div className="checkoutProduct__rating">
                     {Array(rating)
