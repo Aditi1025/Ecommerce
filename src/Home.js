@@ -4,13 +4,10 @@ import Product from "./Product";
 import Category from "./Category";
 import logo from "./logo.png";
 import { Link } from "react-router-dom";
-import Carousel from 'react-bootstrap/Carousel'
 
 function Home() {
   return (
     <div className="home">
- 
-
       <div className="home__container">
        <img
           className="home__image"
