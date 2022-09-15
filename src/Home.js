@@ -46,14 +46,14 @@ function Home() {
             title="GRECIILOOKS Western Dresses for Women |A-Line Knee-Length Dress | Indo Western Dress for Women| Short Dress"
             price={867}
             rating={4}
-            image="https://m.media-amazon.com/images/I/71SJm8Q8C5L._UY741_.jpg"
+            image="/images/w1.png"
           />
           <Product
             id="49538094"
             title="EYEBOGLER Men's Polo Striped Regular Fit T-Shirt-(T285HS-PP)"
             price={662}
             rating={4}
-            image="https://m.media-amazon.com/images/I/61Mw4M+mHwL._UX569_.jpg"
+            image="/images/m1.png"
           />
 
         </div>

@@ -25,7 +25,7 @@ alt="First slide"
 <Carousel.Item>
 <img
 className="d-block w-100"
-src="/images/women1.jpeg"
+src="/images/women2.jpeg"
 alt="Second slide"
 />
 <Carousel.Caption>
