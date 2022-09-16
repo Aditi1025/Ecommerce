@@ -4,6 +4,7 @@ import Product from "./Product";
 import Category from "./Category";
 import logo from "./logo.png";
 import { Link } from "react-router-dom";
+import BootstrapCarouselComponent from "./BootstrapCarouselComponent";
 
 function Home() {
   return (
@@ -14,39 +15,24 @@ function Home() {
           src={logo}
           alt=""
         />
-        <Link to='/womens'>
-            <div className="header__option">
-              <span className="header__optionClothing">Womens</span>
-              <span className="header__optionClothing2">Clothes</span>
-            </div>  
-          </Link>
-        
-          <Link to='/mens'>
-            <div className="header__option">
-              <span className="header__optionClothing">Mens</span>
-              <span className="header__optionClothing2">Clothes</span>
-            </div>  
-          </Link>
-
-          <Link to='/childs'>
-            <div className="header__option">
-              <span className="header__optionClothing">Childs</span>
-              <span className="header__optionClothing2">Clothes</span>
-            </div>  
-          </Link>
         <div className="home__row">
         <Category 
-        image="https://tinyurl.com/ywjpczyu"
+        image="/images/men1.jpeg"
         url="/mens"
         />
         <Category 
-        image="https://tinyurl.com/ywjpczyu"
-        url="/women"
+        image="/images/women1.jpeg"
+        url="/womens"
         />
         <Category 
-        image="https://tinyurl.com/ywjpczyu"
+        image="/images/children2.jpeg"
         url="childs"/>
         </div>
+        <div className="home__trending">
+        <h2>Trending Now</h2>
+        </div>
+        
+        <BootstrapCarouselComponent />
         <div className="home__row">
           <Product
             id="12321341"
@@ -60,14 +46,14 @@ function Home() {
             title="GRECIILOOKS Western Dresses for Women |A-Line Knee-Length Dress | Indo Western Dress for Women| Short Dress"
             price={867}
             rating={4}
-            image="https://m.media-amazon.com/images/I/71SJm8Q8C5L._UY741_.jpg"
+            image="/images/w1.png"
           />
           <Product
             id="49538094"
             title="EYEBOGLER Men's Polo Striped Regular Fit T-Shirt-(T285HS-PP)"
             price={662}
             rating={4}
-            image="https://m.media-amazon.com/images/I/61Mw4M+mHwL._UX569_.jpg"
+            image="/images/m1.png"
           />
 
         </div>
