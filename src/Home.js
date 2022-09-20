@@ -8,13 +8,11 @@ import BootstrapCarouselComponent from "./BootstrapCarouselComponent";
 
 function Home() {
   return (
+    <div>
+    <BootstrapCarouselComponent />
+    
     <div className="home">
       <div className="home__container">
-       <img
-          className="home__image"
-          src={logo}
-          alt=""
-        />
         <div className="home__row">
         <Category 
         image="/images/men1.jpeg"
@@ -31,8 +29,7 @@ function Home() {
         <div className="home__trending">
         <h2>Trending Now</h2>
         </div>
-        
-        <BootstrapCarouselComponent />
+
         <div className="home__row">
           <Product
             id="12321341"
@@ -106,6 +103,7 @@ function Home() {
           />
         </div>
       </div>
+    </div>
     </div>
   );
 }

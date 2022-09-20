@@ -1,6 +1,5 @@
 import React from "react";
 import "./Header.css";
-import ManageSearchIcon from '@mui/icons-material/ManageSearch';
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 import { Link } from "react-router-dom";
 import { useStateValue } from "./StateProvider";
@@ -20,11 +19,6 @@ function Header() {
       <div className="header__logo">
           <span>FashGram</span>
         </div>
-
-      <div className="header__search">
-        <input className="header__searchInput" type="text" />
-        <ManageSearchIcon className="header__searchIcon" />
-      </div>
 
       <div className="header__nav">
         

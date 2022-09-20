@@ -13,33 +13,33 @@ return (
 <div className="row">
 <div className="col-12">
 <Carousel>
-<Carousel.Item>
-<img
-className="d-block w-100"
-src="/images/men1.jpeg"
-alt="First slide"
-/>
-<Carousel.Caption>
-</Carousel.Caption>
-</Carousel.Item>
-<Carousel.Item>
-<img
-className="d-block w-100"
-src="/images/women2.jpeg"
-alt="Second slide"
-/>
-<Carousel.Caption>
-</Carousel.Caption>
-</Carousel.Item>
-<Carousel.Item>
-<img
-className="d-block w-100"
-src="/images/children1.jpeg"
-alt="Third slide"
-/>
-<Carousel.Caption>
-</Carousel.Caption>
-</Carousel.Item>
+    <Carousel.Item>
+        <img
+        className="h-25 d-inline-block"
+        src="/images/1.png"
+        alt="First slide"
+        />
+        <Carousel.Caption>
+        </Carousel.Caption>
+    </Carousel.Item>
+    <Carousel.Item>
+        <img
+        className="d-block"
+        src="/images/2.png"
+        alt="Second slide"
+        />
+        <Carousel.Caption>
+        </Carousel.Caption>
+    </Carousel.Item>
+        <Carousel.Item>
+        <img
+        className="h-25 d-inline-block"
+        src="/images/3.png"
+        alt="Third slide"
+        />
+        <Carousel.Caption>
+        </Carousel.Caption>
+    </Carousel.Item>
 </Carousel>
 </div>
 </div>
