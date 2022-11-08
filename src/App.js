@@ -11,6 +11,7 @@ import { loadStripe } from "@stripe/stripe-js";
 import { Elements } from "@stripe/react-stripe-js";
 import Payment from "./Payment";
 import Orders from "./Orders";
+import Paypage from "./Paypage";
 
 import Womens from "./Womens";
 import Mens from "./Mens";
@@ -59,6 +60,11 @@ return (
       <Route path="/payment"
         element={<><Header/><Elements stripe={promise}>
         <Payment />
+      </Elements></>}
+        />
+      <Route path="/paypage"
+        element={<><Header/><Elements stripe={promise}>
+        <Paypage />
       </Elements></>}
         />
       <Route path="/womens" element={<><Header/><Womens/></>}/>

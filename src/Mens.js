@@ -15,62 +15,53 @@ function Home() {
         
         <div className="home__row">
           <Product
-            id="12321341"
-            title="Lymio Women's Polyester Short A-Line Dress"
-            price={999}
+            id="49084783"
+            title="GLORYBOYZ Men's Cotton Regular Fit Short Sleeve Big Checks Chambray Shirt"
+            price={350}
             rating={4}
-            image="https://m.media-amazon.com/images/I/7122Zr2GkrL._UY741_.jpg"
+            image="https://m.media-amazon.com/images/I/81VRriaaWgL._UY741_.jpg"
           />
           <Product
-            id="49538055"
-            title="GRECIILOOKS Western Dresses for Women |A-Line Knee-Length Dress | Indo Western Dress for Women| Short Dress"
-            price={867}
-            rating={4}
-            image="https://m.media-amazon.com/images/I/71SJm8Q8C5L._UY741_.jpg"
-          />
-          <Product
-            id="49538094"
-            title="EYEBOGLER Men's Polo Striped Regular Fit T-Shirt-(T285HS-PP)"
-            price={662}
-            rating={4}
-            image="https://m.media-amazon.com/images/I/61Mw4M+mHwL._UX569_.jpg"
-          />
-
-        </div>
-
-        <div className="home__row">
-          <Product
-            id="4903850"
-            title="OOMPH! Women's Crepe A-Line Maxi Dress (Smocked}or"
-            price={898.99}
+            id="100847387"
+            title="Destiny Fashion Men's Slim Fit Casual Shirt"
+            price={479}
             rating={3}
-            image="https://m.media-amazon.com/images/I/81PNeTkEIFL._UY741_.jpg"
+            image="https://m.media-amazon.com/images/I/71qTbVnVZZL._UY741_.jpg"
           />
           <Product
-            id="23445930"
-            title="Diverse Men Formal Shirt"
-            price={798}
+            id="398728094"
+            title="Dennis Lingo Men Shirt"
+            price={652}
             rating={5}
-            image="https://m.media-amazon.com/images/I/81vuqr1DAtL._UY550_.jpg"
+            image="https://m.media-amazon.com/images/I/618Wek95laS._UY741_.jpg"
           />
-         <Product
-            id="49538088"
-            title="Misto Vagon Women and Girls Pencil Heel Casual Sandal"
-            price={600}
-            rating={4}
-            image="https://m.media-amazon.com/images/I/616gcguOH+L._UY625_.jpg"
-          />
+
         </div>
 
         <div className="home__row">
           <Product
-            id="90829332"
-            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
-            price={1094.98}
+            id="76508094"
+            title="Dennis Lingo Men's Slim Fit Casual Shirt"
+            price={632}
             rating={4}
-            image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
+            image="https://m.media-amazon.com/images/I/61o-uF0ObRL._UX679_.jpg"
+          />
+          <Product
+            id="87108094"
+            title="Diverse Men's Regular Fit Formal Shirt"
+            price={420}
+            rating={3}
+            image="https://m.media-amazon.com/images/I/81vuqr1DAtL._UX569_.jpg"
+          />
+          <Product
+            id="32108094"
+            title="Diverse Men's Regular Fit Formal Shirt"
+            price={290}
+            rating={3}
+            image="https://m.media-amazon.com/images/I/81h5dB3vKKL._SX569._SX._UX._SY._UY_.jpg"
           />
         </div>
+
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 import React from "react";
 import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "./BootstrapCarouselComponent.css"
 class BootstrapCarouselComponent extends React.Component {
 render() {
 return (
@@ -15,7 +16,7 @@ return (
 <Carousel>
     <Carousel.Item>
         <img
-        className="h-25 d-inline-block"
+        className="carousel_design"
         src="/images/1.png"
         alt="First slide"
         />
@@ -24,7 +25,7 @@ return (
     </Carousel.Item>
     <Carousel.Item>
         <img
-        className="d-block"
+        className="carousel_design"
         src="/images/2.png"
         alt="Second slide"
         />
@@ -33,7 +34,7 @@ return (
     </Carousel.Item>
         <Carousel.Item>
         <img
-        className="h-25 d-inline-block"
+        className="carousel_design"
         src="/images/3.png"
         alt="Third slide"
         />

@@ -13,6 +13,9 @@ function Home() {
     
     <div className="home">
       <div className="home__container">
+      <div className="home__trending">
+      <a href="#"><img src="https://fontmeme.com/permalink/221108/6eea3e7b292e0d934e473ffe812f61f9.png" alt="kaushan-script-font" border="0"/></a>
+        </div>
         <div className="home__row">
         <Category 
         image="/images/men1.jpeg"
@@ -27,7 +30,7 @@ function Home() {
         url="childs"/>
         </div>
         <div className="home__trending">
-        <h2>Trending Now</h2>
+        <a href="#"><img src="https://fontmeme.com/permalink/221108/c5892f41f3cfbb085d6e2c8d0375660f.png" alt="kaushan-script-font" border="0"/></a>
         </div>
 
         <div className="home__row">
